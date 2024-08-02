@@ -1,0 +1,32 @@
+{
+  "name": "react-hook-axios",
+  "version": "0.0.0",
+  "description": "A react hook based on axios for request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "react hook",
+    "axios"
+  ],
+  "author": "KAROTT7",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": ">=1.0.0",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.7",
+    "prettier": "^3.3.3",
+    "rollup": "^4.19.2",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "axios": ">=1.0.0"
+  },
+	"lint-staged": {
+		"*.{ts,tsx}": ["prettier --write"]
+	}
+}
